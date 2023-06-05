@@ -1,0 +1,117 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 60vw;
+  box-shadow: 0px 15px 25px rgb(0, 0, 0, 0.16);
+  padding: 10px;
+}
+.nav-bar-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 15vh;
+  border-radius: 20px;
+  padding: 10px;
+  background-size: cover;
+}
+.span-element {
+  color: #0b69ff;
+  margin-top: 20px;
+}
+.img {
+  height: 10vh;
+  width: 05vw;
+}
+.Balance-container {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  width: 17vw;
+  height: 15vh;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.your-balance-container {
+  margin-right: 20px;
+}
+.money-diff-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Income-container {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  width: 17vw;
+  height: 15vh;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  width: 17vw;
+  height: 15vh;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.label {
+  margin-top: 20px;
+}
+.add-transaction-container {
+  width: 49%;
+  padding: 25px;
+  border: solid 1px #475569;
+  border-radius: 20px;
+}
+.button {
+  margin-top: 10px;
+  border: 0px;
+  background-color: #0b69ff;
+  color: #fff;
+  padding: 5px;
+  height: 6vh;
+  width: 10vw;
+  border-radius: 5px;
+}
+.table-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.transaction-history-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.history-container {
+  width: 49%;
+  padding: 25px;
+  border: solid 1px #475569;
+  border-radius: 20px;
+}
+.table-container {
+  border: solid 1px #475569;
+  border-radius: 10px;
+  padding: 5px;
+}
