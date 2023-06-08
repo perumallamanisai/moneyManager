@@ -173,10 +173,10 @@ class MoneyManager extends Component {
                 onChange={this.onChangeTitle}
               />
               <br />
-              <label htmlFor="title">AMOUNT</label>
+              <label htmlFor="amount">AMOUNT</label>
               <br />
               <input
-                type="number"
+                type="text"
                 id="amount"
                 className="amount"
                 placeholder="AMOUNT"
